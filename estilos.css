@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #000000;
+    color: white;
+}
+
+#nosotros {
+    background-color: #333;
+    color: white;
+
+}
+
+#contacto {
+    background-color: #cccccc;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+nav {
+    background-color: #2e2e2e;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+
+    color: #fff;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a {
+    color: #ff9100;
+}
+
+
+#menu {
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.Pizzas-Destacadas {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+
+}
+
+.Pizza-ind {
+    display: flex;
+    margin: 10px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.textos {
+    text-align: center;
+    background-color: #000000;
+}
+
+.textos h3 {
+    font-size: 18px;
+}
+
+.textos p {
+    font-size: 16px;
+    color: #ff5733;
+}
+
+#contacto h3 {
+    font-size: 50px;
+}
+
+#contacto {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff9f21;
+}
+
+#formularioContacto {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+}
+
+.form-group {
+    margin-bottom: 15px 0px 15px 0px;
+    padding: 0px 20px;
+    border-radius: 30%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#menu h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Pizza-ind {
+    display: inline-block;
+    margin: 10px;
+}
+
+.caja-pizza {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; 
+}
+.caja-pizza:hover 
+{
+    transform: scale(1.2);
+}
+
+.textos {
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.textos h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.textos p {
+    font-size: 16px;
+    color: #ff9100;
+}
+
+.contact {
+    padding: 20px;
+    font-size: 50px;
+}
+
+h1 h2 {
+    font-size: 35px;
+}
+
+#menu h2 {
+    font-size: 35px;
+}

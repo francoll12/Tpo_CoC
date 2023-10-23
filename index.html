@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PizzaNapoli</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i><a href="#inicio">Inicio</a></li>
+            <li><i class="fas fa-shopping-bag"></i><a href="#nosotros">Nosotros</a></li>
+            <li><i class="fas fa-book"></i><a href="#menu">Menu</a></li>
+            <li><i class="fas fa-envelope"></i><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h1>Pizza<a>Napoli</a></h1>
+        <p>¡Bienvenidos a PizzaNapoli! Somos tu destino para las pizzas más
+             deliciosas de la ciudad. Desde 2022, nos dedicamos a la tradición de la pizza artesanal 
+             con ingredientes frescos.Nuestra pasión es tu satisfacción, ofreciendo 
+             una variedad de opciones en un ambiente acogedor. Explora nuestro menú y déjanos deleitar tus sentidos. ¡Te esperamos!
+        </p>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre <a>Nosotros</a></h2>
+        <p>En Pizza<a>Napoli</a>, nuestra pasión es la pizza
+            auténtica napolitana. Desde 2020,
+            hemos estado creando deliciosas pizzas con
+            ingredientes frescos y una masa perfecta.
+            Nuestra misión es traer un trozo de Italia a BuenosAires
+            con cada bocado. Ven y únete a nosotros para una experiencia
+            gastronómica única. ¡Te esperamos en PizzaNapoli!</p>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menu</h2>
+        <div class="Pizzas-Destacadas">
+            <div class="Pizza-ind">
+                <div class="caja-pizza" style="background-image:  url(./Imagenes/Pizza\ Margarita.jpg)">
+                    <div class="textos">
+                        <h3>Pizza Margarita</h3>
+                        <p>$4500</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Pizza-ind">
+                <div class="caja-pizza" style="background-image: url('./Imagenes/Pizza-cuatro-quesos.jpg')">
+                    <div class="textos">
+                        <h3>Pizza cuatro quesos</h3>
+                        <p>$4300</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Pizza-ind">
+                <div class="caja-pizza" style="background-image: url('./Imagenes/pizza-champinones.png')">
+                    <div class="textos">
+                        <h3>Pizza Champinones</h3>
+                        <p>$4500</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Pizza-ind">
+                <div class="caja-pizza" style="background-image: url('./Imagenes/Pizza\ napolitana.jpg')">
+                    <div class="textos">
+                        <h3>Pizza napolitana</h3>
+                        <p>$4320</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <form id="formularioContacto" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <i class="contact fa-brands fa-instagram"></i><a href="https://www.instagram.com/"></a>
+            <i class="contact fa-brands fa-facebook"></i><a href="https://www.facebook.com/"></a>
+            <i class="contact fa-brands fa-twitter"></i><a href="https://twitter.com/home"></a>
+            <i class="contact fa-brands fa-youtube"></i><a href="https://www.youtube.com/"></a>
+            </a>
+        </section>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
